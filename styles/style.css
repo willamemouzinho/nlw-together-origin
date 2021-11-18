@@ -1,0 +1,74 @@
+/*=== Importacion ===*/
+
+/*=== /Importacion ===*/
+
+/*=== Variables ===*/
+:root {
+  --header-height: 3.5rem;
+
+  /* colors */
+  --hue: 152;
+  --first-color: hsl(var(--hue), 24%, 32%);
+  --first-color: #b2b2b2;
+  --second-color: #b2b2b2;
+  --first-color-alt: #;
+  --first-color-light: #;
+  --first-color-lighten: #;
+  --title-color:#;
+  --text-color:#;
+  --text-color-light:#;
+  --body-color: #;
+  --container-color: #FFF;
+
+  /* typography */
+  --body-font-family: 'Poppins', sans-serif;
+  --title-font-family: 'Poppins', sans-serif;
+
+  --big-font-size: 2rem;
+  --title-font-size: 1.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --body-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  --font-light: 300;
+  --font-normal: 400;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /* spacing */
+  --sp-0-25: 0.25rem;
+  --sp-0-5: 0.5rem;
+  --sp-0-75: 0.75rem;
+  --sp-1: 1rem;
+  --sp-1-25: 1.25rem;
+  --sp-1-5: 1.5rem;
+  --sp-2: 2rem;
+  --sp-2-5: 2.5rem;
+  --sp-4: 4rem;
+
+  /* z index */
+  --z--1: -1;
+  --z-0: 0;
+  --z-1: 1;
+  --z-10: 10;
+  --z-100: 100;
+}
+/*=== /Variables ===*/
+
+/*=== Main ===*/
+
+/*=== /Main ===*/
+
+/*=== Footer ===*/
+
+/*=== /Footer ===*/
+
+/*=== xxx ===*/
+
+/*=== /xxx ===*/
