@@ -1,47 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Title</title>
-    <meta name="author" content="Willame Mouzinho">
-    <meta name="description" content="Page description.">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="nofollow, noindex">
+    <meta name="author" content="Willame Mouzinho" />
+    <meta name="description" content="Page description." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="robots" content="nofollow, noindex" /> -->
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="my-favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="my-favicon.ico" type="image/x-icon" />
 
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/b84c9c8240.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CDN remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CDN flaticon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
     <!-- stylesheets -->
-    <link rel="stylesheet" href="my-css-file.css">
+    <link rel="stylesheet" href="styles/style.css" />
 
     <!-- scripts -->
-    <script src="my-js-file.js" defer></script>
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <p>This is my page</p>
+    <header>
+      <div class="container-m">
+        <nav id="nav">
+          <a href="#" class="logo" tabindex="1">beauty<span>salon</span>.</a>
+          <i
+            id="menu-toggle"
+            class="ri-menu-3-line toggle"
+            alt="Butão do menu toggle: uma grid de três linhas"
+            tabindex="2"
+          ></i>
+          <div id="menu" class="">
+            <ul>
+              <li><a href="#home" class="active">Início</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#services">Serviços</a></li>
+              <li><a href="#depoiments">Depoimentos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+        <section id="hero">
+          <div>
+            <h1>Saúde natural para os seus cabelos</h1>
+            <p>
+              Um salão exclusivo em São Paulo, especializado em tratamentos
+              naturais.
+            </p>
+            <a href="#" class="secondary-button" tabindex="3"
+              >Agendar um horário</a
+            >
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main class="container-m">
+      <section id="about">
+        <picture>
+          <source media="(min-width:768px)" srcset="" />
+          <source media="(min-width:1024px)" srcset="" />
+          <img
+            src="images/female-hairdresser-holding-scissor.jpg"
+            alt="Salão com cabeleleiras cortando cabelos"
+          />
+        </picture>
+        <div>
+          <h2 class="title">Sobre nós</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            sagittis arcu quis nisi luctus, id accumsan felis tristique. Proin
+            quis bibendum diam. Sed consequat nisl laoreet eros ultricies
+            pellentesque. Nullam in est porta, pellentesque massa vitae,
+            vehicula risus.
+          </p>
+          <p>
+            In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut
+            pretium urna turpis eu dui. Vestibulum id ullamcorper nibh. Donec
+            luctus, nunc finibus elementum suscipit, tortor augue vulputate
+            sapien, vitae feugiat enim augue sed.
+          </p>
+          <p>
+            Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis
+            rutrum velit a leo euismod dictum. Sed sodales est efficitur arcu
+            tincidunt tincidunt. Curabitur fringilla, risus at feugiat feugiat,
+            nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend
+            dolor. Nullam eget dui at sem ullamcorper luctus.
+          </p>
+        </div>
+      </section>
+      <section id="services">
+        <div>
+          <h2 class="title">Serviços</h2>
+          <p>
+            Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+            conquistou clientes de inúmeros países com seus tratamentos
+            exclusivos e totalmente naturais
+          </p>
+        </div>
+        <ul>
+          <li>
+            <img
+              src="images/icon-hair.svg"
+              alt="Ícone do rosto de uma mulher cuidando de seus cabelos"
+            />
+            <h3 class="subtitle">Terapia capilar</h3>
+            <p>
+              Terapia completa para couro cabeludo e fios, protegendo todos os
+              tipos de cabelos, inclusive os longos e finos.
+            </p>
+          </li>
+          <li>
+            <img src="images/icon-tesoura.svg" alt="Ícone de uma tesoura" />
+            <h3 class="subtitle">Cortes</h3>
+            <p>
+              A nossa equipe é repleta de profissionais renomados, famosos por
+              lançarem tendências com cortes diferenciados e clássicos.
+            </p>
+          </li>
+          <li>
+            <img
+              src="images/icon-produtos.svg"
+              alt="Ícone de produtos de beleza"
+            />
+            <h3 class="subtitle">Tratamentos</h3>
+            <p>
+              O beautysalon conta com diversos tratamentos naturais e totalmente
+              veganos, para qualquer tipo de cabelo.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="depoiments">
+        <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+        <div>
+          <p>
+            <i class="ri-double-quotes-l quote"></i>
+            Eu sou cliente do Beautysalon há 5 anos e não troco por nada!
+            Certamente meu cabelo mudou muito depois que comecei a tratar
+            somente com produtos naturais e veganos. São profissionais incríveis
+            e qualificados.
+          </p>
+          <span class="user"
+            ><img src="images/10.jpeg" alt="Foto de um usuário aleatório" />
+            Wanessa Souza</span
+          >
+        </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section id="contact">
+        <div>
+          <h2 class="title">Entre em contato com a gente!</h2>
+          <p>
+            Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+            ouvir suas críticas e sugestões.
+          </p>
+          <a href="" class="primary-button"
+            ><i class="ri-whatsapp-line"></i> Entre em contato</a
+          >
+        </div>
+        <address>
+          <ul>
+            <li><i class="ri-phone-line"></i> 11 99845-6754</li>
+            <li><i class="ri-map-pin-line"></i> R. Amauri Souza, 346</li>
+            <li><i class="ri-mail-line"></i> contato@beautysalon.com</li>
+          </ul>
+        </address>
+      </section>
+    </main>
+    <footer id="footer" class="container-p">
+      <div>
+        <a href="" class="logo">beauty<span>salon</span>.</a>
+        <p>©2021 Beautysalon.</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+
+      <ul class="social-media">
+        <li>
+          <a href=""><i class="ri-instagram-fill"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="ri-facebook-fill"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="ri-twitter-fill"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- <p>This is my page</p>
+    <a href="https://br.freepik.com/fotos/negocio"
+      >Negócio foto criado por wavebreakmedia_micro - br.freepik.com</a
+    > -->
   </body>
 </html>
-
-<!--
-  
-OU 
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <META NAME="ROBOTS" CONTENTS="NOFOLLOW, NOINDEX">
-  <meta name="robots" content="nofollow, noindex">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Willame Mouzinho">
-  <meta name="description" content="Page description.">
-  <title>Title</title>
-</head>
-<body>
-    <p>This is my page</p>
-</body>
-</html>
-
--->
